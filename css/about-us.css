@@ -1,0 +1,115 @@
+/* Navbar Start */
+.register-btn {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.custom-navbar-container {
+  width: 70%;
+}
+
+/* Navbar End */
+/* about us icon */
+.text {
+  padding-right: .5rem;
+  font-size: 1.5rem;
+}
+
+/* about us heading */
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+/* paragraph about our team */
+p {
+  font-family: serif;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* pictures of our team */
+.images {
+  text-align: center;
+}
+
+.rounded-circle {
+  height: 150px;
+  width: 150px;
+}
+
+.team-text {
+  padding-top: 1rem;
+}
+
+.team-text1 {
+  padding-top: .2rem;
+}
+
+.team-text2 {
+  padding-top: .2rem;
+}
+
+/* body end */
+/* footer start */
+footer {
+  background-color: #272727;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  /* my adding start*/
+  position: static;
+  /* my adding end*/
+}
+
+footer a {
+  text-decoration: none;
+  /* my adding start*/
+  margin-bottom: 0;
+  padding-bottom: 0;
+  /* my adding end*/
+}
+
+.fab {
+  font-size: 2rem;
+  margin: 1rem 0.5rem;
+}
+
+.fa-facebook {
+  color: #1873EB;
+}
+
+.fa-whatsapp-square {
+  color: #50C45F
+}
+
+.fa-instagram {
+  color: #C02899;
+}
+
+.fa-youtube {
+  color: #F70000;
+}
+
+.fa-twitter {
+  color: #009DED;
+}
+
+.copyright {
+  color: white;
+  font-size: 1.1rem;
+  /* my adding start*/
+  padding-bottom: 0;
+  /* my adding end*/
+}
+
+.developer {
+  color: white;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+
+/* Footer End*/
