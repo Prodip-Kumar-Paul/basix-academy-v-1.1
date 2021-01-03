@@ -7,7 +7,17 @@
 .custom-navbar-container {
   width: 90%;
 }
+
+@media (min-width:1000px) {
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0; /* remove the gap so it doesn't close */
+   }
+}
+
 /* Navbar End */
+
+
 
 /* Landing Page Start */
 .landing-page {
@@ -111,7 +121,6 @@
 }
 /* Faculties Ends */
 
-
 /* Footer starts */
 footer {
   background-color: #272727;
@@ -133,7 +142,7 @@ footer a {
   color: #1873EB;
 }
 
-.fa-whatsapp-square {
+.fa-google {
   color: #50C45F
 }
 
@@ -145,7 +154,7 @@ footer a {
   color: #F70000;
 }
 
-.fa-twitter {
+.fa-envelope {
   color: #009DED;
 }
 

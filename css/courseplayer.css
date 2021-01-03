@@ -16,6 +16,15 @@ margin-bottom: 0;
 .custom-navbar-container {
   width: 90%;
 }
+
+@media (min-width:1000px) {
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0; /* remove the gap so it doesn't close */
+   }
+}
+
+
 /* Navbar End */
 
 /* content-wrapper */
@@ -112,12 +121,10 @@ footer {
   text-align: center;
   margin-bottom: 0;
   padding-bottom: 0;
-  position: static;
 }
 
 footer a {
   text-decoration: none;
-  margin-bottom: 0;
 }
 
 .fab {
@@ -129,7 +136,7 @@ footer a {
   color: #1873EB;
 }
 
-.fa-whatsapp-square {
+.fa-google {
   color: #50C45F
 }
 
@@ -141,7 +148,7 @@ footer a {
   color: #F70000;
 }
 
-.fa-twitter {
+.fa-envelope {
   color: #009DED;
 }
 

@@ -8,56 +8,66 @@
   width: 90%;
 }
 
+@media (min-width:1000px) {
+  .dropdown:hover .dropdown-menu {
+      display: block;
+      margin-top: 0; /* remove the gap so it doesn't close */
+   }
+}
+
 /* Navbar End */
-/* body start */
-.image{
+
+/* contact us start  */
+
+.contact {
+  margin: auto 10%;
+}
+
+.contact-img {
   width: 100%;
-  height: auto;
-  margin-bottom: 4rem;
-}
-
-.text2 {
-  text-align: center;
-  font-family: serif;
-  color:blue;
-}
-
-.text3 {
-  margin-bottom: 2rem;
-  margin-right: 3rem;
-  margin-left: 3rem;
-}
-
-.text4 {
-  padding-bottom: 1rem;
-}
-.text5{
   margin-bottom: 2rem;
 }
-.icon{
-  font-size: 1.6rem;
-  color: red;
+
+.address {
+  padding: 1rem 1rem;
+  text-align: left;
+}
+.map {
+  /* width: 30%; */
+  padding: 1rem 1rem;
+  border-radius: 10%;
+}
+.email {
+  padding:  1rem 1rem 0;
+}
+.email p {
+  font-size: 1.5rem;
 }
 
-/* body end */
-/* footer start */
+.phone {
+  padding: 1rem 1rem;
+}
+.phone p {
+  font-size: 1.5rem;
+}
+@media (max-width: 800px) {
+  .contact {
+    margin: auto 5%;
+    text-align: center;
+  }
+}
+/* contact us end */
+
+/* Footer starts */
 footer {
   background-color: #272727;
   text-align: center;
   margin-bottom: 0;
   padding-bottom: 0;
-  /* my adding start*/
-  margin-top: 1rem;
-  position: static;
-  /* my adding end*/
 }
 
 footer a {
   text-decoration: none;
-  /* my adding start*/
-  margin-bottom: 0;
-  padding-bottom: 0;
-  /* my adding end*/
 }
 
 .fab {
@@ -69,7 +79,7 @@ footer a {
   color: #1873EB;
 }
 
-.fa-whatsapp-square {
+.fa-google {
   color: #50C45F
 }
 
@@ -81,16 +91,13 @@ footer a {
   color: #F70000;
 }
 
-.fa-twitter {
+.fa-envelope {
   color: #009DED;
 }
 
 .copyright {
   color: white;
   font-size: 1.1rem;
-  /* my adding start*/
-  padding-bottom: 0;
-  /* my adding end*/
 }
 
 .developer {
